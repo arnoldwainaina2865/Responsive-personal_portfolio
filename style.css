@@ -80,10 +80,14 @@
     align-items: center;
  }
 
- .home-img img{
-    width:35vw ;
-    animation: floatImage 4s ease-in-out infinite;
- }
+ .home-img img {
+   width: 35vw;
+   animation: floatImage 15s ease-in-out infinite;
+   border-radius: 50%; /* Makes the image circular */
+   object-fit: cover; 
+   
+}
+
 
  @keyframes floatImage{
    0%{
