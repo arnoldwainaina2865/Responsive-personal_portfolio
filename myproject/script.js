@@ -5,6 +5,7 @@ menuIcon.onclick=()=>{
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
+// initial commits
 
 
 let sections=document.querySelectorAll('section');
